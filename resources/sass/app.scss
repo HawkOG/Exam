@@ -1,0 +1,31 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+body{
+  font-family:'ProximaNova-BoldCondensed';
+}
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+
+@font-face {
+  font-family: 'font05213ba9450b7faef5968933e4e1b510';
+      
+      src:    url('https://nomail.com.ua/files/eot/05213ba9450b7faef5968933e4e1b510.eot?#iefix') format('embedded-opentype'),
+              url('https://nomail.com.ua/files/woff/05213ba9450b7faef5968933e4e1b510.woff') format('woff'),
+              url('https://nomail.com.ua/files/woff2/05213ba9450b7faef5968933e4e1b510.woff2') format('woff2');
+  }
+  
+@font-face { font-family: 'ProximaNova-BoldCondensed';  src: local('ProximaNova-BoldCondensed'), url('https://nomail.com.ua/files/woff/05213ba9450b7faef5968933e4e1b510.woff') format('woff'); }
+
+li{
+  list-style: none;
+}
